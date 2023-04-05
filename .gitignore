@@ -1,0 +1,41 @@
+# Ignore Composer generated directories
+/vendor/
+/web/core
+/web/modules/contrib
+/web/themes/contrib
+/web/profiles/contrib
+/web/libraries
+/.gitattributes
+
+# Ignore Drupal files directory
+/web/sites/*/files
+
+# Ignore sensitive information
+/web/sites/*/settings.local.php
+/web/sites/*/settings*.php
+/web/sites/*/services*.yml
+
+.DS_Store
+
+# Ignore drupal core scaffolded files
+/web/modules/README.txt
+/web/sites/README.txt
+/web/sites/development.services.yml
+/web/sites/default/default.services.yml
+/web/sites/default/default.settings.php
+/web/sites/example.settings.local.php
+/web/sites/example.sites.php
+/web/themes/README.txt
+/web/.csslintrc
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.htaccess
+/web/.ht.router.php
+/web/INSTALL.txt
+/web/README.md
+/web/autoload.php
+/web/example.gitignore
+/web/index.php
+/web/robots.txt
+/web/update.php
+/web/web.config
